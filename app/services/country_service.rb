@@ -9,4 +9,9 @@ class CountryService
     JSON.parse(response.body, symbolize_names: true)
   end
 
+  def self.find_capital_by_country(country)
+    response = conn.get("/v3.1/name/#{country}?fullText=true")
+    JSON.parse(response.body, symbolize_names: true)
+  end
+
 end

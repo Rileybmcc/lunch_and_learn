@@ -9,7 +9,7 @@ Rails.application.routes.draw do
 
       get '/recipes', to: 'recipes#show'
 
-      get '/tourist_sights', to: 'tourist_sights#index'
+      get '/tourist_sights', to: 'tourists_sights#index'
 
       # post '/favorites', to: 'favorites#'
 
