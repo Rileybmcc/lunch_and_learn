@@ -1,13 +1,92 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/rileyblue/turing/3module/projects/lunch_and_learn/app/facades.rb/country_facade.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          251,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/rileyblue/turing/3module/projects/lunch_and_learn/spec/facades/edamam_facade_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/rileyblue/turing/3module/projects/lunch_and_learn/app/facades.rb/edamam_facade.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          21,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/rileyblue/turing/3module/projects/lunch_and_learn/app/services/edamam_service.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/rileyblue/turing/3module/projects/lunch_and_learn/spec/poros/country_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/rileyblue/turing/3module/projects/lunch_and_learn/app/poros/country.rb": {
         "lines": [
           1,
           1,
           null,
           1,
-          2,
+          252,
           null,
           null,
           null
@@ -46,17 +125,67 @@
           null,
           null,
           1,
+          22,
+          22,
+          22,
+          22,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/rileyblue/turing/3module/projects/lunch_and_learn/spec/services/country_service_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/rileyblue/turing/3module/projects/lunch_and_learn/app/services/country_service.rb": {
+        "lines": [
+          1,
+          null,
+          1,
           2,
-          2,
+          null,
+          null,
+          1,
           2,
           2,
           null,
+          null,
+          null
+        ]
+      },
+      "/Users/rileyblue/turing/3module/projects/lunch_and_learn/spec/services/edamam_service_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
           null,
           null,
           null
         ]
       }
     },
-    "timestamp": 1668401525
+    "timestamp": 1668402958
   }
 }
