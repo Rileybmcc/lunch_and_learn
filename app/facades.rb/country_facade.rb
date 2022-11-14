@@ -9,7 +9,7 @@ class CountryFacade
   def self.find_capital(country)
     response = CountryService.find_capital_by_country(country)
 # require "pry"; binding.pry
-    {:lat => response[0][:capitalInfo][0], :long => response[0][:capitalInfo][1]}
+    {:lat => response[0][:capitalInfo][:latlng][0], :long => response[0][:capitalInfo][:latlng][1]}
   end
 
 end
