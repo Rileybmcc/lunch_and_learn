@@ -7,7 +7,9 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
 
-      get '/recipies', to: 'recipies#show'
+      get '/recipes', to: 'recipes#show'
+
+      # post '/favorites', to: 'favorites#'
 
     end
   end

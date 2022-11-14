@@ -1,0 +1,62 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/rileyblue/turing/3module/projects/lunch_and_learn/app/poros/country.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          2,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/rileyblue/turing/3module/projects/lunch_and_learn/spec/poros/dish_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/rileyblue/turing/3module/projects/lunch_and_learn/app/poros/dish.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1668401525
+  }
+}
