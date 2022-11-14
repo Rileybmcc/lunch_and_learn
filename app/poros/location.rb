@@ -5,7 +5,7 @@ class Location
 
   def initialize(data)
     @name = data[:properties][:name]
-    @address = data[:properties][:formatted]
+    @address = data[:properties][:address_line2]
     @place_id = data[:properties][:place_id]
   end
 
