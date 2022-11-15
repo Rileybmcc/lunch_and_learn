@@ -9,6 +9,7 @@ class YoutubeService
   end
 
   def self.vids_about_country(country)
+    # require "pry"; binding.pry
     response = conn.get("search?q=#{country}")
     JSON.parse(response.body, symbolize_names: true)
   end
