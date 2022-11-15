@@ -5,6 +5,7 @@ class Api::V1::TouristsSightsController < ApplicationController
     locations = PlacesFacade.sights_near_capital(capital_lat_long[:lat], capital_lat_long[:long])
     # require "pry"; binding.pry
     render json: { :data => locations}
+    # render json: LocationSerializer.new({:data => locations})
   end
 
 end
