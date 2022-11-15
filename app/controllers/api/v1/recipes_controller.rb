@@ -10,11 +10,12 @@ class Api::V1::RecipesController < ApplicationController
       end
     else
       random_country = CountryFacade.random_country.shuffle.first
-      recipes = EdamamFacade.recipes_by_country(random_country)
-      if recipes == nil
-        render json: {:data => [] }
+# require "pry"; binding.pry
+      random_recipes = EdamamFacade.recipes_by_country(random_country.name)
+      if random_recipes.count > 0
+        render json: { :data => random_recipes }
       else
-        render json: { :data => recipes }
+        render json: {:data => [] }
       end
     end
 
