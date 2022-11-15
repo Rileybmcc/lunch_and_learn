@@ -8,7 +8,7 @@ Rails.application.routes.draw do
     namespace :v1 do
 
       get '/recipes', to: 'recipes#show'
-
+      get '/learning_resources', to: 'learning_resources#show'
       get '/tourist_sights', to: 'tourists_sights#index'
 
       # post '/favorites', to: 'favorites#'
