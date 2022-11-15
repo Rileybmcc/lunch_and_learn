@@ -7,9 +7,14 @@ class CountryFacade
   end
 
   def self.find_capital(country)
-    response = CountryService.find_capital_by_country(country)
-# require "pry"; binding.pry
-    {:lat => response[0][:capitalInfo][:latlng][0], :long => response[0][:capitalInfo][:latlng][1]}
+    countries = CountryFacade.random_country
+
+    if countries.map { |place| place.name.downcase }.include?(country)
+      response = CountryService.find_capital_by_country(country)
+      {:lat => response[0][:capitalInfo][:latlng][0], :long => response[0][:capitalInfo][:latlng][1]}
+    else
+      "Invalid Country"
+    end
   end
 
 end
