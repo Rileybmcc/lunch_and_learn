@@ -11,6 +11,7 @@ class WeatherService
       faraday.params['lat'] = lat
       faraday.params['lon'] = lng
     end
+    # require "pry"; binding.pry
     JSON.parse(response.body, symbolize_names: true)
   end
 
