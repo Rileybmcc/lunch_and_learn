@@ -10,7 +10,6 @@ RSpec.describe WeatherFacade do
     expect(air_quality.readable_aqi).to be_a(String)
     expect(air_quality.readable_aqi).to eq('Good')
     expect(air_quality.datetime).to be_a(Integer)
-
   end
 
 

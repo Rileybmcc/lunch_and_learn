@@ -28,7 +28,7 @@ class Weather
 
 
   def as_json(option={})
-    {:id => 'null', :type => "air_quality", :attributes => {:aqi => self.aqi, :datetime => self.datetime, :readable_aqi => self.readable_aqi}}
+    {:id => nil, :type => "air_quality", :attributes => {:aqi => self.aqi, :datetime => self.datetime, :readable_aqi => self.readable_aqi}}
   end
 
 end

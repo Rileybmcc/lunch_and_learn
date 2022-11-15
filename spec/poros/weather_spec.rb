@@ -19,4 +19,7 @@ RSpec.describe Weather do
     expect(@weather.datetime).to eq(1668534851)
     expect(@weather.readable_aqi).to eq("Very Poor")
   end
+
+
+  
 end

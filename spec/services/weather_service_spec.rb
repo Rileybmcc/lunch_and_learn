@@ -10,6 +10,6 @@ RSpec.describe EdamamService do
     expect(response[:list][0]).to have_key(:main)
     expect(response[:list][0][:main][:aqi]).to be_an(Integer)
     expect(response[:list][0][:dt]).to be_an(Integer)
-
+    
   end
 end
