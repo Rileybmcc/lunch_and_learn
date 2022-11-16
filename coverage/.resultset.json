@@ -124,6 +124,57 @@
           null
         ]
       },
+      "/Users/rileyblue/turing/3module/projects/lunch_and_learn/spec/models/favorite_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/rileyblue/turing/3module/projects/lunch_and_learn/app/models/favorite.rb": {
+        "lines": [
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/rileyblue/turing/3module/projects/lunch_and_learn/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/rileyblue/turing/3module/projects/lunch_and_learn/spec/models/user_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          2,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/rileyblue/turing/3module/projects/lunch_and_learn/app/models/user.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/rileyblue/turing/3module/projects/lunch_and_learn/spec/poros/country_spec.rb": {
         "lines": [
           1,
@@ -203,8 +254,8 @@
           22,
           null,
           null,
-          1,
-          0,
+          null,
+          null,
           null,
           null,
           null,
@@ -277,12 +328,12 @@
           null,
           null,
           1,
-          0,
+          1,
           null,
           null,
           1,
           null,
-          0,
+          1,
           null,
           null,
           null,
@@ -300,11 +351,6 @@
           20,
           20,
           20,
-          null,
-          null,
-          1,
-          0,
-          null,
           null,
           null,
           null
@@ -615,6 +661,6 @@
         ]
       }
     },
-    "timestamp": 1668554646
+    "timestamp": 1668607690
   }
 }
