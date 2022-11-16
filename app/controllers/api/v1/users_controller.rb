@@ -1,9 +1,14 @@
 class Api::V1::UsersController < ApplicationController
 
   def create
-    # require "pry"; binding.pry
-    user = User.create(name: params[:name], email: params[:email])
+    user = User.new(name: params[:user][:name], email: params[:user][:email], api_key: SecureRandom.base64(12))
 
+    if user.save        #User.find_by(id: user.email)
+      render json: UserSerializer.new(user)
+    else
+      render json: {data: 'Email is Already Registered'}
+    end
   end
+
 
 end

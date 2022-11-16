@@ -73,12 +73,6 @@ RSpec.configure do |config|
     config.filter_sensitive_data('<type>') { Figaro.env.edamam_type }
     config.filter_sensitive_data('<apiKey>') { Figaro.env.geo_key }
     config.filter_sensitive_data('<appid>') { Figaro.env.weather_key }
-
   end
+
 end
-
-  VCR.configure do |config|
-    config.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
-    config.hook_into :webmock
-    config.configure_rspec_metadata!
-  end

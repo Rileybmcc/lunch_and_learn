@@ -13,7 +13,7 @@ class Video
   # end
   #
   # def as_json(option={})
-    {:id => 'null', :type => "learning_resource", :attributes => {:country => self.country, :video => self, :images => {:images => [{ :alt_tag => , :ur => }]}}}
+    # {:id => 'null', :type => "learning_resource", :attributes => {:country => self.country, :video => self, :images => {:images => [{ :alt_tag => , :ur => }]}}}
   # end
 
 end
