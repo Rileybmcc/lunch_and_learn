@@ -1,0 +1,43 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution?appid=<appid>&lat=48.87&lon=2.88
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 16 Nov 2022 12:07:36 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '184'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution?lat=48.87&lon=2.88"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":2.88,"lat":48.87},"list":[{"main":{"aqi":1},"components":{"co":211.95,"no":0.09,"no2":6.17,"o3":57.94,"so2":1.43,"pm2_5":2.25,"pm10":2.95,"nh3":0.56},"dt":1668600456}]}'
+  recorded_at: Wed, 16 Nov 2022 12:07:36 GMT
+recorded_with: VCR 6.1.0

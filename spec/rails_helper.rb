@@ -60,19 +60,26 @@ RSpec.configure do |config|
 
   # Filter lines from Rails gems in backtraces.
   config.filter_rails_from_backtrace!
+end
   # arbitrary gems may also be filtered via:
   # config.filter_gems_from_backtrace("gem name")
-  VCR.configure do |config|
-    config.cassette_library_dir = "spec/fixtures/vcr_cassettes"
-    config.hook_into :webmock
-    config.configure_rspec_metadata!
+VCR.configure do |config|
+  config.cassette_library_dir = "spec/fixtures/vcr_cassettes"
+  config.hook_into :webmock
 
-    config.filter_sensitive_data('<key>') { Figaro.env.ytube_key }
-    config.filter_sensitive_data('<app_key>') { Figaro.env.edamam_key }
-    config.filter_sensitive_data('<api_id>') { Figaro.env.edamam_app_id }
-    config.filter_sensitive_data('<type>') { Figaro.env.edamam_type }
-    config.filter_sensitive_data('<apiKey>') { Figaro.env.geo_key }
-    config.filter_sensitive_data('<appid>') { Figaro.env.weather_key }
+  config.filter_sensitive_data('<key>') { Figaro.env.ytube_key }
+  config.filter_sensitive_data('<app_key>') { Figaro.env.edamam_key }
+  config.filter_sensitive_data('<api_id>') { Figaro.env.edamam_app_id }
+  config.filter_sensitive_data('<type>') { Figaro.env.edamam_type }
+  config.filter_sensitive_data('<apiKey>') { Figaro.env.geo_key }
+  config.filter_sensitive_data('<appid>') { Figaro.env.weather_key }
+
+  config.configure_rspec_metadata!
+end
+
+Shoulda::Matchers.configure do |config|
+  config.integrate do |with|
+    with.test_framework :rspec
+    with.library :rails
   end
-
 end
