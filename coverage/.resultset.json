@@ -11,6 +11,12 @@
           251,
           null,
           null,
+          1,
+          0,
+          null,
+          0,
+          null,
+          null,
           null
         ]
       },
@@ -57,6 +63,21 @@
           2,
           2,
           null,
+          null,
+          null
+        ]
+      },
+      "/Users/rileyblue/turing/3module/projects/lunch_and_learn/spec/facades/places_service_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
           null,
           null
         ]
@@ -135,6 +156,98 @@
           null
         ]
       },
+      "/Users/rileyblue/turing/3module/projects/lunch_and_learn/spec/poros/location_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/rileyblue/turing/3module/projects/lunch_and_learn/app/poros/location.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          20,
+          20,
+          20,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/rileyblue/turing/3module/projects/lunch_and_learn/spec/services/country_service_spec.rb": {
         "lines": [
           1,
@@ -165,6 +278,11 @@
           2,
           null,
           null,
+          1,
+          0,
+          0,
+          null,
+          null,
           null
         ]
       },
@@ -184,8 +302,60 @@
           null,
           null
         ]
+      },
+      "/Users/rileyblue/turing/3module/projects/lunch_and_learn/spec/services/places_service_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/rileyblue/turing/3module/projects/lunch_and_learn/app/facades.rb/places_facade.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          21,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/rileyblue/turing/3module/projects/lunch_and_learn/app/services/places_service.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null,
+          null,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1668402958
+    "timestamp": 1668465972
   }
 }
