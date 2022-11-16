@@ -5,3 +5,8 @@ edamam_type: public
 
 geo_key: 0df4a6eda2b1400b8c9843c93ade02b1
 geo_category: tourist_sight
+
+ytube_key: AIzaSyB8e2JWf_4I9fuZHPr6DLJG-_nTEY4cTv0
+# youtube_key: AIzaSyC2Hj47pOjxa6j_ie61sQDqq3ZiNN-VV1M
+
+weather_key: 926a063b785473ee260f32cdbf7e5ea8
