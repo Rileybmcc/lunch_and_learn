@@ -6,7 +6,8 @@ class Api::V1::RecipesController < ApplicationController
       if recipes == nil
         render json: {:data => [] }
       else
-        render json: { :data => recipes }
+        render json: DishSerializer.new(recipes)
+        # render json: { :data => recipes }
       end
     else
       random_recipes = []
@@ -14,17 +15,9 @@ class Api::V1::RecipesController < ApplicationController
         random_country = CountryFacade.random_country.shuffle.first
         random_recipes = EdamamFacade.recipes_by_country(random_country.name)
       end
-      render json: { :data => random_recipes }
-
-      # random_country = CountryFacade.random_country.shuffle.first
-      # random_recipes = EdamamFacade.recipes_by_country(random_country.name)
-      # if random_recipes.count > 0
-      #   render json: { :data => random_recipes }
-      # else
-      #   render json: {:data => [] }
-      # end
+      render json: DishSerializer.new(random_recipes)
+      # render json: { :data => random_recipes }
     end
-
   end
 
 end
