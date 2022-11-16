@@ -1,38 +1,37 @@
 # README
 
-Retake Graders:
+Lunch and Learn: 
 
-  run: bundle exec rspec spec/facades/weather_facade_spec.rb spec/poros/weather_spec.rb spec/services/weather_service_spec.rb
-        open coverage/index.html
-        
-  postman call: localhost:3000/api/v1/air_quality
-                use country as key for call with country param
 
--------------------------End Retake Section-----------------------------
+  Setup, run: rails db:{drop,create,migrate,seed}
 
 
 
+        Air Quality:
+  postman call: localhost:3000/api/v1/air_quality     method: :get
+    -use country as key for call with country param
 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+        Recipes:
+  postman call: localhost:3000/api/v1/recipes     method: :get
+    -use country as key for call with country param
+    
+    
+    
+        Learn About Country:                ----Not Currently Functional----
+  postman call: localhost:3000/api/v1/learning_resources      method: :get
+    -use country as key for call with country param
+    
 
-Things you may want to cover:
 
-* Ruby version
+        User Registration:
+  postman call: localhost:3000/api/v1/users     method: :post
+    -use name and email as keys in json call
+    
+    
+    
+        Add Favorites:
+  postman call: localhost:3000/api/v1/favorites     method: :post
+    -use api_key, country, recipe_link and recipe_title as keys in json call    
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
